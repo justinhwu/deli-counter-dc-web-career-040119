@@ -1,6 +1,6 @@
 # Write your code here.
 def line(katz_deli)
-  if other_deli.length ==0 
+  if katz_deli.length ==0 
     return "The line is currently empty."
   else
     i=0
