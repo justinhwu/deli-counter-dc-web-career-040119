@@ -4,4 +4,5 @@ def line(katz_deli, other_deli)
     return "The line is currently empty."
   else
     i=0
-    for i in 
+    for i in i..other_deli do
+      
