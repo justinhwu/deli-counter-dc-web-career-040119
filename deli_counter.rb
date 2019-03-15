@@ -2,4 +2,6 @@
 def line(katz_deli, other_deli)
   if other_deli.length ==0 
     return "The line is currently empty."
-  elsif 
+  else
+    i=0
+    for i<other_deli.length
