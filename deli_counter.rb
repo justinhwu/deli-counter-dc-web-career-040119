@@ -5,7 +5,7 @@ def line(katz_deli)
   else
     i=0
     for i in i..katz_deli.length do
-      puts "The line is currently: #{i+1}. #{katz_deli[i]}"
+      katz_deli.push "The line is currently: #{i+1}. #{katz_deli[i]}"
     end
   end
 end
