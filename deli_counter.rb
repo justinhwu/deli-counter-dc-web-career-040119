@@ -5,4 +5,4 @@ def line(katz_deli, other_deli)
   else
     i=0
     for i in i..other_deli do
-      return "The line is currently: "
+      return "The line is currently: #{i+1}. "
