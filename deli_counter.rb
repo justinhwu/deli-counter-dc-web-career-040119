@@ -6,7 +6,7 @@ def line(katz_deli)
     number = 0
     katz_deli.collect do |name|
       number+=1
-      "The line is currently: #{number}. #{name} "
+      puts "The line is currently: #{number}. #{name} "
   end
 end 
 end
