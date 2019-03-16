@@ -18,6 +18,5 @@ def take_a_number(katz_deli, name)
     katz_deli.push(name)
   else 
     katz.deli.push(name)
-  
-  
+  end
 end
