@@ -6,6 +6,6 @@ def line(katz_deli)
     number = 0
     katz_deli.collect do |name|
       number+=1
-      ""
+      "The line"
   end
 end
