@@ -9,6 +9,6 @@ def line(katz_deli)
       number+=1
       line += " #{number}. #{name} "
   end
-  puts 
+  puts line
 end 
 end
