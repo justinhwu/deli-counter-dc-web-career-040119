@@ -4,6 +4,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     number = 0
+    current
     katz_deli.collect do |name|
       number+=1
       puts "The line is currently: #{number}. #{name} "
