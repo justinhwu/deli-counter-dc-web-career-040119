@@ -8,4 +8,5 @@ def line(katz_deli)
       number+=1
       "The line is currently: #{number}. #{name} "
   end
+end 
 end
