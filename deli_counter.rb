@@ -5,6 +5,6 @@ def line(katz_deli)
   else
     number = 0
     katz_deli.collect do |name|
-      
+      number+=1
   end
 end
