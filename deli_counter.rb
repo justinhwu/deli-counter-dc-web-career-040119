@@ -4,6 +4,6 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     number = 0
-    
+    katz_deli.collect 
   end
 end
