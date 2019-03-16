@@ -5,7 +5,7 @@ def line(katz_deli)
   else
     number = 0
     line = "The line is currently:"
-    katz_deli.collect do |name|
+    katz_deli.each do |name|
       number+=1
       " #{number}. #{name} "
   end
